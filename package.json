@@ -1,0 +1,16 @@
+{
+  "name": "calligram",
+  "version": "0.1.0",
+  "description": "Share your selft-studying moments with others",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "calligram",
+    "javascript"
+  ],
+  "author": "Gabriel Coronado",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
