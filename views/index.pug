@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+html
+  head
+    title Document
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no")
+    meta(name="author", content="Gabriel Coronado")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script" rel="stylesheet")
+    link(rel="stylesheet" href="app.css")
+  body
+    section#main-container
+    footer.site-footer
+      .container
+        .row
+          .col.s12.l3.center-align
+            a.dropdown-trigger.btn.btn-flat(href='#', data-target='dropdown1') Language
+            ul#dropdown1.dropdown-content
+              li
+                a(href='#!') Spanish
+              li
+                a(href='#!') English
+          // Delete these two BRs and CSS the col right below with a margin top or smth
+          //br.hide-on-large-only
+          //br.hide-on-large-only
+          .col.s12.l3.push-l6.center-align
+            | © 2019 - Calligram.
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js')
+    script.
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems);
+      });
+
+
+
