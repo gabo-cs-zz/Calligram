@@ -4,7 +4,7 @@
   "description": "Share your selft-studying moments with others",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "gulp": "gulp"
   },
   "keywords": [
     "calligram",
@@ -13,6 +13,7 @@
   "author": "Gabriel Coronado",
   "license": "MIT",
   "dependencies": {
+    "D": "^1.0.0",
     "express": "^4.16.4",
     "materialize-css": "^1.0.0",
     "pug": "^2.0.3"
