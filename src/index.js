@@ -7,7 +7,7 @@ page('/', () =>
 );
 
 page('/signup', () =>
-  main.innerHTML = 'Signup <a href="/">Home</a>'
+  main.innerHTML = 'Sign up <a href="/">Home</a>'
 );
 
 //Start page

@@ -4,7 +4,8 @@
   "description": "Share your selft-studying moments with others",
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp"
+    "build": "gulp",
+    "start": "gulp watch & node server.js"
   },
   "keywords": [
     "calligram",
@@ -26,6 +27,7 @@
     "gulp": "^3.9.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
   }
 }
