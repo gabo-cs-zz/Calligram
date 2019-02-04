@@ -1,6 +1,14 @@
-//testing es6 with babel
-var nums = [4, 5, -6, 1, 0];
+var page = require('page');
 
-var numsAdded = nums.map(n => n + 1 );
+var main = document.getElementById('main-container');
 
-console.log(numsAdded);
+page('/', () =>
+  main.innerHTML = 'Home <a href="/signup">Sign Up</a>'
+);
+
+page('/signup', () =>
+  main.innerHTML = 'Signup <a href="/">Home</a>'
+);
+
+//Start page
+page();
